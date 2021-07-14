@@ -17,14 +17,13 @@ common styles or utilities
 }
 .heading-title{
     align-items: center;
-   
+    margin: 100px 119px 27px 56px;
 }
 .heading-title h1{
     font-size:64px;
     width: 485px;
     height: 330px;
     line-height: 80px;
-    margin: 207px 119px 27px 56px;
 }
 .heading-title a{
     text-decoration: none;
@@ -32,7 +31,6 @@ common styles or utilities
     height: 44px;
     background-color:  #A50044;
     padding: 10px 24px;
-    margin-left: 60px;
     font-size: 16px;
     color: #FFFFFF;
 }
@@ -40,7 +38,7 @@ common styles or utilities
     border: 1px solid #004D98;
     border-radius: 0px 120px 0px 0px; 
     box-shadow: 50px 0px 50px 0px #a500459b;
-    margin-top: 171px;
+    margin-top: 120px;
     margin-left: 50px;
     margin-bottom: 68px;
     overflow: hidden;
@@ -51,7 +49,7 @@ common styles or utilities
 }
  .heading-banner img:hover{
     transform: scale(1.2, 1.3);
-    transition: 2s; 
+    transition: 2s ease; 
 }
 main{
     margin-top: 70px;
@@ -90,3 +88,58 @@ main{
     margin: 0%;
     font-size: 16px;
 }
+/*=============
+ footer styles 
+ ==============*/
+footer{
+    height: auto;
+    padding: 40px;
+    margin-top: 10px;
+}
+.footer-icon{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.footer-icon h1{
+    font-family: 'Londrina Outline', cursive;
+    font-size: 50px;
+    margin: 0%;
+    color: #A50044;
+}
+.color{
+    color: #004D98;
+}
+.footer-icon img{
+    width: 200px;
+}
+.footer-icon img:hover{
+    transform: scale(1.2, 1.3);
+    transition: 2s ease; 
+    color: #A50044;
+}
+ .social{
+     list-style: none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 0%;
+ }
+ .social li{
+    margin: 0px 14px;
+ }
+ .social a{
+     text-decoration: none;
+     color: gray;
+ }
+ .social a i{
+     font-size: 1.1rem;
+     transition: color .4s ease;
+     padding-right: 30px;
+ }
+ .social a:hover i{
+     color: #A50044;
+ }
+ .copyright{
+     text-align: center;
+ }
